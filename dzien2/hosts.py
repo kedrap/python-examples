@@ -6,8 +6,6 @@ print(a)
 file = open('pickle.txt', 'w')
 p = pickle.dumps(a, file)
 
-
-
 exit(1)
 
 #import csv
@@ -24,7 +22,7 @@ with open('hosts.txt') as file:
         m = r.search(line.strip())
         if m:
             firstName, lastName, domain = m.groups()
-            print('{fn:>10} {ln:<10} @ {dn}'.format(fn = firstName, ln = lastName, dn = domain))
+            print('{fn:>10} {ln:<10} @ {dn}'.format(fn=firstName, ln=lastName, dn=domain))
 
 
 #with open('hosts.txt') as file:

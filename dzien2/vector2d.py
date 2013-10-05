@@ -1,7 +1,8 @@
 from math import sqrt
 
+
 class Vector2d:
-    def __init__(self, x, y = None):
+    def __init__(self, x, y=None):
         #if isinstance(x, Vector2d):
         if y == None:
             print('aa')

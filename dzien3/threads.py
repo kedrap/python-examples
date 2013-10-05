@@ -1,6 +1,7 @@
 import threading
 import time
 
+
 def worker(delay, info):
     for i in range(10):
         time.sleep(delay)

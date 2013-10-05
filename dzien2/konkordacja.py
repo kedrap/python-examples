@@ -11,12 +11,11 @@ with open('/usr/lib/python3.3/LICENSE.txt') as f:
                 freq[word] = 1
 
     rev = {}
-    for k,v in freq.items():
+    for k, v in freq.items():
         try:
             rev[v].append(k.lower())
         except KeyError:
             rev[v] = [k.lower()]
-
 
     for f in sorted(rev.keys(), reverse=True):
         print(f, ":", rev[f])

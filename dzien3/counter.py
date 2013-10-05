@@ -16,6 +16,7 @@ class Counter:
         for x in range(self.limit, 0, -1):
             print(x)
 
+
 cd = Counter(10)
 #cd.down()
 

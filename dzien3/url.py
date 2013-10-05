@@ -27,12 +27,13 @@ class MyWorker(threading.Thread):
             #try:
             print(self.url, ":", len(buff))
             import random
+
             if random.choice(range(5)) == 2:
                 #raise KeyError
                 pass
-            #finally:
-            #    pass
-            #lock.release()
+                #finally:
+                #    pass
+                #lock.release()
 
 
 workers = []
@@ -47,3 +48,4 @@ for worker in workers:
     #pass
 
 print("time 2: ", round(time.time() - start, 2), " s")
+9

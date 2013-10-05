@@ -1,6 +1,6 @@
 #print(1,2,3)
 
-def quniversal (*args, **kwargs):
+def quniversal(*args, **kwargs):
     print(args, kwargs)
 
 

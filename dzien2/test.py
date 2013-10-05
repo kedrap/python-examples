@@ -17,12 +17,13 @@ def is_prime(i):
     return True
 
 
-def primes(N = 100):
+def primes(N=100):
     results = []
     for i in range(2, N + 1):
         if is_prime(i):
             results.append(i)
 
     return results
+
 
 print(primes(100))

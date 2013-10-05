@@ -1,5 +1,4 @@
-res = {'lc' : 0, 'wc' : 0, 'cc' : 0}
-
+res = {'lc': 0, 'wc': 0, 'cc': 0}
 
 with open('/usr/lib/python3.3/LICENSE.txt', 'br') as file:
     for line in file:
